@@ -1,5 +1,3 @@
-import { ReactElement } from "react";
-
 import {
   BsFillEmojiHeartEyesFill,
   BsFillEmojiSmileFill,
@@ -13,13 +11,6 @@ type ThanksProps = {
     review: string;
     comment: string;
   };
-};
-
-type emojiObject = {
-  unsatisfied: ReactElement;
-  neutral: ReactElement;
-  satisfied: ReactElement;
-  very_satisfied: ReactElement;
 };
 
 const emojiData = {
